@@ -6,6 +6,9 @@
         let nextAssetId = 1; 
         let currentFilter = 'all'; 
 
+        const name = localStorage.getItem("name");
+        document.querySelector('.name').textContent = name;
+
         // --- DOM Elements ---
         const totalAssetsCountEl = document.getElementById('totalAssetsCount');
         const assignedAssetsCountEl = document.getElementById('assignedAssetsCount');

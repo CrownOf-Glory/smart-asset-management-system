@@ -20,10 +20,37 @@
       Manages the university assests efficiently...
       </section>
       <section class="buttons">
-        <button class="sign-up" onclick="document.location='/SIGN-UP/signup.html'">Sign Up</button>
-        <button class="login" onclick="document.location = '/LOGIN/login.html'">Login</button>
+        <button class="sign-up" onclick="signup()">Sign Up</button>
+        <button class="login" onclick="login()">Login</button>
       </section>
     </section>
   </div>
+<!-- document.location='/SIGN-UP/signup.html' -->
+  <script>
+    function send1(){
+   document.location = '/SIGN-UP/signup.html'
+    }
+    function signup(){
+ setTimeout(() => { send1()}, 1000);
+    //  ( send() , 10000);
+    }
+
+    function send2(){
+      document.location = '/LOGIN/login.html';
+    }
+
+function login(){
+    setTimeout(() => {send2()}, 1000);
+}
+    
+    const Signup = document.querySelector('.sign-up');
+
+
+
+
+    // Signup.addEventListener('click', () => {
+    
+    // })
+  </script>
 </body>
 </html>

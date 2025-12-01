@@ -78,13 +78,14 @@ input::placeholder {
 }
 
 .creat-account:hover {
-  background-color: rgb(3, 113, 3);
+ cursor: pointer;
+  color: rgb(3, 113, 3);
+  border: 1px solid rgb(3, 113, 3);
+  background-color: white;
 }
 
 .creat-account:active {
-  color: green;
-  border: 1px solid green;
-  background-color: white;
+  background-color: rgb(3 , 113, 3);
 }
 
 a {
