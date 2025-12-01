@@ -1,0 +1,90 @@
+/* body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+image {
+  width: 400rem;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+} */
+
+body{
+align-items: center;
+justify-content: center;
+background: white;
+font-size: var(--font-size-h);
+/* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+font-family: 'poppins', sans-serif;
+} 
+
+div{
+  display: flex;
+  height: 100vh;
+  background: white;
+  align-items: center;
+  justify-content: center;  
+  flex-direction: column;
+}
+
+.image{
+  height: 50vh;
+  justify-content: center;
+  background-color: white;
+}
+
+.title{
+  margin-top: -1rem;
+  align-items: center;
+  text-align: center;
+}
+
+.note {
+  margin-top: -1rem;
+}
+
+section h1 {
+  color: rgb(11, 169, 11);
+}
+
+.buttons {
+  margin-top: 2rem;
+}
+
+button {
+  margin: 0 1rem;
+  font-size: 1.3rem;
+  font-weight: 1.5rem;
+  padding: 0.6rem 2.4rem;
+  border-radius: 9px;
+  border: none;
+}
+
+.sign-up, .login:hover {
+  color: white;
+  transition: 0.2s ease;
+  background-color: rgb(2, 85, 2);
+}
+
+.login ,.sign-up:hover {
+  color: green;
+  transition: 0.2s ease;
+  border: 1px solid green;
+  background-color: white;
+}
+
+.sign-up:active {
+  background-color: rgb(207, 245, 200);
+}
+
+.login:active {
+   background-color: rgb(3, 75, 3);
+}

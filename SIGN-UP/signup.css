@@ -1,0 +1,100 @@
+body{
+align-items: center;
+justify-content: center;
+background: white;
+font-size: var(--font-size-h);
+/* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+font-family: 'poppins', sans-serif;
+} 
+
+div{
+  display: flex;
+  height: 100vh;
+  background: white;
+  align-items: center;
+  justify-content: center;  
+  flex-direction: column;
+}
+
+section h1 {
+  text-align: center;
+   color: rgb(12, 129, 12);
+}
+
+.double-input {
+  display: grid;
+  margin: -0.2rem 0;
+  grid-template-columns: 48.5% 48.5%;
+  justify-content: space-between;
+  padding: 0.4rem 0.35rem;
+}
+
+input {
+  font-size: 0.8rem;
+  width: 100%;
+  margin: 0.25rem 0;
+  padding: 0.4rem 0.35rem;
+  border-radius: 4px;
+  border: 1px solid rgb(215, 213, 213);
+}
+
+input::placeholder {
+  font-size: 0.8rem;
+  color: rgb(156, 156, 156);
+}
+
+ .input1 {
+  margin-left: -0.3rem;
+}
+
+.input2 {
+  margin-right: -0.3rem;
+  margin-left: 2px;
+} 
+
+.create-account-section {
+  width: 100%;
+  margin-top: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.role-error {
+  color: red;
+  font-size: 0.8rem;
+}
+
+.creat-account{
+  color: white;
+  background-color: rgb(2, 85, 2);
+  border: none;
+  border-radius: 1rem;
+  width: 100%;
+  padding: 0.7rem 0rem;
+  text-align: center;
+  margin-left: 0.22rem;
+  transition: 0.2s ease;
+}
+
+.creat-account:hover {
+  background-color: rgb(3, 113, 3);
+}
+
+.creat-account:active {
+  color: green;
+  border: 1px solid green;
+  background-color: white;
+}
+
+a {
+  color: green;
+}
+
+p {
+  text-align: center;
+}
+
+#response {
+  color: red;
+}
